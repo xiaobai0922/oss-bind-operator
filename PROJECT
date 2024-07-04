@@ -7,4 +7,14 @@ layout:
 - go.kubebuilder.io/v4
 projectName: oss-bind-operator
 repo: github.com/xiaobai0922/learn-extending-kubernetes/oss-bind-operator
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: oss.controller.learn
+  group: opeartor.learn.io
+  kind: OssBindingOperator
+  path: github.com/xiaobai0922/learn-extending-kubernetes/oss-bind-operator/api/v1alpha1
+  version: v1alpha1
 version: "3"

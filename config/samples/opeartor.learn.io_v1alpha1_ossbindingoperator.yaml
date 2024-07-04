@@ -1,0 +1,12 @@
+apiVersion: opeartor.learn.io.oss.controller.learn/v1alpha1
+kind: OssBindingOperator
+metadata:
+  labels:
+    app.kubernetes.io/name: ossbindingoperator
+    app.kubernetes.io/instance: ossbindingoperator-sample
+    app.kubernetes.io/part-of: oss-bind-operator
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: oss-bind-operator
+  name: ossbindingoperator-sample
+spec:
+  # TODO(user): Add fields here
